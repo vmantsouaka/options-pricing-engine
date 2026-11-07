@@ -11,3 +11,16 @@ __all__ = [
     "lsm_price",
     "simulate_paths",
 ]
+
+mon_projet/             ← Package
+│
+├── __init__.py      (module, fichier .py)
+│
+├── pricing/            ← Sous-package
+│   ├── __init__.py
+│   ├── black_scholes.py
+│   └── monte_carlo.py
+│
+└── utils/              ← Sous-package
+    ├── __init__.py
+    └── helpers.py
